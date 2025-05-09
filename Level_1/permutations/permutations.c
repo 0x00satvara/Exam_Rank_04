@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//use puts instead of printf (m lazy)
+
 int get_next_permutation(char *perm, int n)
 {
     int i = n - 1;
