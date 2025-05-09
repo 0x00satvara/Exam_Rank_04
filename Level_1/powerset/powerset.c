@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//if it didn't work don't sort and try again
+
 void sort(int *arr, int size) {
     for (int i = 0; i < size - 1; i++) {
         for (int j = 0; j < size - i - 1; j++) {
